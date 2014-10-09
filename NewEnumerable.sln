@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewEnumerable", "Src\NewEnu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewEnumerableTest", "Test\NewEnumerableTest\NewEnumerableTest.csproj", "{ACE49244-1C39-40F9-AE58-C5ABA4EB1389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Test\Runner\Runner.csproj", "{591438C4-0942-4B50-99FE-2EA3B84A321E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ACE49244-1C39-40F9-AE58-C5ABA4EB1389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE49244-1C39-40F9-AE58-C5ABA4EB1389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE49244-1C39-40F9-AE58-C5ABA4EB1389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591438C4-0942-4B50-99FE-2EA3B84A321E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591438C4-0942-4B50-99FE-2EA3B84A321E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591438C4-0942-4B50-99FE-2EA3B84A321E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591438C4-0942-4B50-99FE-2EA3B84A321E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
