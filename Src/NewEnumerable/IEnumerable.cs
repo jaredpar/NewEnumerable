@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace NewEnumerable
 {
-    public interface IEnumerable<TElement, TIterator>
+    public interface IEnumerable<TElement, TEnumerator>
     {
-        TIterator Start { get; }
+        TEnumerator Start { get; }
 
-        bool TryGetNext(ref TIterator current, out TElement value);
+        bool TryGetNext(ref TEnumerator current, out TElement value);
     }
 }

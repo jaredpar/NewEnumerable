@@ -62,6 +62,7 @@ namespace NewEnumerable
                 _array = temp;
             }
         }
+
         public int Start
         {
             get { return 0; }
@@ -78,6 +79,11 @@ namespace NewEnumerable
             value = _array[current];
             current++;
             return true;
+        }
+
+        public static explicit operator Enumerable<T>(ArrayList<T> list)
+        {
+            return new Enumerable<T>(new Enumerable<T>.CommonEnumeratorImpl<int>(list));
         }
     }
 }
